@@ -3,7 +3,6 @@
 #include <linux/list.h>
 #include <linux/module.h>
 
-long sys_get_leaf_children_sum_aux(struct task_struct* task);
 
 asmlinkage long sys_hello(void) {
         printk("Hello, World!\n");
